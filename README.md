@@ -12,6 +12,7 @@ Dependencies
 * spicy
 * pandas
 * CUDA 8.0 or later version
+* cuDNN 7.0.5
 
 Usage
 ---------
@@ -21,7 +22,7 @@ Usage
 Dataset Description
 -------
 * Download:
-	* Link: [STNN_WuHanTaxi_10min_192x192_C3_P3_T3_N1_Y2_2D.h5](http://www.baidu.com)
+	* Link: [STNN_WuHanTaxi_10min_192x192_C3_P3_T3_N1_Y2_2D.h5](http://ggssc.whu.edu.cn/ggssc/downloads/STNN/STNN_WuHanTaxi_10min_192x192_C3_P3_T3_N1_Y2_2D.rar)
 	* The data are organized using hdf5 format,and you can use `h5py` to manipulate the data.
 	* Once you download the data,you need to place it in `...\STNN\Data\CACHE`.
 
